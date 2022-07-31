@@ -73,6 +73,12 @@ header {
 .logo img{
     max-width: 4vh;
 }
+#dark {
+    font-size: 3vh;
+}
+#dark:hover{
+    color:#00acee;
+}
 em{
     /* background: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-ternary)); */
 background:#00acee;
