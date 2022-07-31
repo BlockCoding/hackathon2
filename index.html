@@ -167,19 +167,19 @@
   </svg>
   <div class="work" id="pro"><br><br><br>
     <div class="input_word">
-      <form action="#" onchange="sendMail()">
+      <form action="#" onsubmit="sendMail()">
         <b> Full Name</b> <br>
-        <input type="text" id="fname" placeholder="Phonie Coder" required> <br><br>
+        <input required type="text" id="fname" placeholder="Phonie Coder" > <br><br>
         <b>Email Address</b> <br>
-        <input type="email" id="email" placeholder="Phonie.com@gmail.com" required> <br><br>
+        <input required type="email" id="email" placeholder="Phonie.com@gmail.com" > <br><br>
 
         <b>Phone Number</b> <br>
-        <input type="tel" name="" id="" placeholder="08031phonie" required> <br><br>
+        <input type="number" name="" id="phone_number" placeholder="08031phonie" required> <br><br>
         <b>What are you contacting for?</b> <br><br>
-        <textarea name="" id="" cols="45" rows="7" required placeholder="Comment......."></textarea><br>
         <br>
 
         <button>Let's Connect</button>
+        <div id="display_result"></div>
       </form>
 
     </div><br><br><br>
@@ -217,7 +217,7 @@
   </footer>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="/Script.js"></script>
+  <script src="./Script.js"></script>
 </body>
 
 </html>
