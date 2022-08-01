@@ -130,7 +130,7 @@ const sendMail = () => {
   const phoneNumber = document.getElementById('phone_number').value
   if (phoneNumber.length !== 11 && phoneNumber.length !== 13) {
     alert(`Invalid phone number`)
-    return
+    return false
   }
 
   const phoneNumberParams =
@@ -157,6 +157,7 @@ const sendMail = () => {
   } else {
     NetworkNumberEl.innerHTML = 'Invaild Network'
   }
+  return false
 }
 
 function myFunction () {
